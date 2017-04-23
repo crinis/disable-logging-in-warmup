@@ -1,4 +1,4 @@
-# Disable loggin in warmup
+# Disable logging in warmup
 
 This SourceMod plugins disables logging by setting "log off" for warmup rounds and sets "log on" for regular rounds. One use might be if you don't want HLstatsX to log player activities during warmup.
 

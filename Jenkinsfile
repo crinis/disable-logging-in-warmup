@@ -16,7 +16,7 @@ node {
                 sh 'mkdir -p build/addons/sourcemod/plugins/ build/addons/sourcemod/scripting/'
                 sh 'mv /home/builder/sourcemod/addons/sourcemod/scripting/compiled/disable-logging-in-warmup.smx build/addons/sourcemod/plugins/'
                 sh 'cp disable-logging-in-warmup.sp build/addons/sourcemod/scripting/'
-                sh 'chown --reference disable-logging-in-warmup.sp/ -R build/'
+                sh 'chown --reference ./ -R build/'
             }
         }
 
