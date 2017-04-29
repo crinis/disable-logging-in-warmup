@@ -15,7 +15,7 @@
 #define VERSION	"0.1.0"
 
 #if 0
-#define _DEBUG
+	#define _DEBUG
 #endif
 
 public Plugin myinfo =
@@ -36,11 +36,11 @@ public void Event_OnRoundStart(Event event, const char[] name, bool dontBroadcas
 {
 	if (isWarmup())
 	{
-        ServerCommand("log off");
+		ServerCommand("log off");
 	}
 	else
 	{
-        ServerCommand("log on");
+		ServerCommand("log on");
 	}
 }
 
